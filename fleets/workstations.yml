@@ -83,10 +83,6 @@ controls:
         labels_include_all:
           - "Department: Engineering"
   
-  macos_updates:
-    deadline: "2026-07-30"
-    minimum_version: "26.4"
-
   windows_settings:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml
@@ -100,7 +96,8 @@ controls:
   # Read more here:
   #   • https://fleetdm.com/guides/enforce-disk-encryption
   ###########################################################
-  # enable_disk_encryption: true
+  enable_disk_encryption: true
+  enable_recovery_lock_password: true
 
   ###########################################################
   # Managed OS updates
@@ -113,10 +110,12 @@ controls:
   #   • https://fleetdm.com/docs/configuration/yaml-files#windows-updates
   #   • https://fleetdm.com/guides/enforce-os-updates
   ###########################################################
-  # macos_updates:
-  #   deadline: "2030-04-01"
-  #   minimum_version: "26.0"
-  #   update_new_hosts: true
+  macos_updates:
+    deadline: "2026-07-30"
+    minimum_version: "26.4"
+  ipados_updates:
+    deadline: "2026-07-30"
+    minimum_version: "26.2"
   # windows_updates:
   #   deadline_days: 7
   #   grace_period_days: 2
