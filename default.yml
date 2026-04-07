@@ -29,9 +29,9 @@ org_settings:
     org_name: AWN Minneapolis
   
   webhook_settings:
-  activities_webhook:
-    enable_activities_webhook: true
-    destination_url: "https://webhook.site/8b01fdfd-1e05-47fe-8c5c-f521c21b10f5"
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: "https://webhook.site/8b01fdfd-1e05-47fe-8c5c-f521c21b10f5"
 
   server_settings:
     ###########################################################
