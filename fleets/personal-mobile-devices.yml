@@ -75,7 +75,7 @@ controls:
 # Apps to make available from the Apple App Store or Google Play
 ###########################################################
 software:
-  fleet_desktop:
+  fleet_maintained_apps:
     - slug: aws-vpn-client/darwin
       self_service: true
   app_store_apps:
