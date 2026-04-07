@@ -48,7 +48,7 @@ controls:
       # - path: ../lib/ios/configuration-profiles/self-service.mobileconfig
       - path: ../platforms/ios/configuration-profiles/passcode-settings.json
         labels_exclude_any:
-          - C-Suite
+          - "Department: Engineering"
   android_settings:
     configuration_profiles:
     certificates:
