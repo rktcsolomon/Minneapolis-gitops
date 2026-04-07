@@ -1,0 +1,12 @@
+name: "DED devices"
+software:
+    packages: # Custom packages (if any)
+    # macOS custom packages
+    # …
+    - path: ../platforms/windows/scripts/warp-config.ps1
+      self_service: false
+    # Windows custom packages
+    # …
+
+    # Linux custom packages
+    # …
